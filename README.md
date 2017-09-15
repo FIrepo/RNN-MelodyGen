@@ -20,7 +20,5 @@ How to use:
       run(mode='file')  
       -Note: New midi will overwrite the old one.  
     
-*     You can modify parameters to make it perform well, such as size of network.  
-      Parameters of network->run.py (size,iteration)  
-      Parameters of generating midi->songbird.py (speed,length)  
-     
+*     You can modify parameters to make it perform well, such as the size of network.  
+      Every modifiable parameter is clearly stated in annotations. Feel free to play with them.
