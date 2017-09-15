@@ -24,7 +24,6 @@ txtpath=sys.path[0]+'\\converted\\'
 midilist=os.listdir(path)
 for filename in midilist:
 	pattern=midi.read_midifile(path+filename)
-	print(pattern)
 	trackid=0
 	for track in pattern:
 		i=0
